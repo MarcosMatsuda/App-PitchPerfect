@@ -14,6 +14,7 @@
 		3A038589216A9AAC00E35498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A038588216A9AAC00E35498 /* Assets.xcassets */; };
 		3A03858C216A9AAC00E35498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A03858A216A9AAC00E35498 /* LaunchScreen.storyboard */; };
 		3A4619A3216D287800883133 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4619A2216D287800883133 /* PlaySoundsViewController.swift */; };
+		3AD3BA78216EB3E9009EDB11 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3BA77216EB3E9009EDB11 /* PlaySoundsViewController+Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3A03858B216A9AAC00E35498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A03858D216A9AAC00E35498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A4619A2216D287800883133 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		3AD3BA77216EB3E9009EDB11 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				3A03858D216A9AAC00E35498 /* Info.plist */,
 				3A038585216A9AAA00E35498 /* PitchPerfect.xcdatamodeld */,
 				3A4619A2216D287800883133 /* PlaySoundsViewController.swift */,
+				3AD3BA77216EB3E9009EDB11 /* PlaySoundsViewController+Audio.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AD3BA78216EB3E9009EDB11 /* PlaySoundsViewController+Audio.swift in Sources */,
 				3A038581216A9AAA00E35498 /* RecordSoundsViewController.swift in Sources */,
 				3A038587216A9AAA00E35498 /* PitchPerfect.xcdatamodeld in Sources */,
 				3A4619A3216D287800883133 /* PlaySoundsViewController.swift in Sources */,

@@ -34,7 +34,6 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         let filePath = URL(string: pathArray.joined(separator: "/"))
         
         let session = AVAudioSession.sharedInstance()
-//        try! session.setCategory(AVAudioSessionCategoryPlayAndRecord, with:AVAudioSessionCategoryOptions.defaultToSpeaker)
         try! session.setCategory( .playAndRecord, mode: .default )
         
         try! audioRecorder = AVAudioRecorder(url: filePath!, settings: [:])
@@ -81,7 +80,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         if segue.identifier == "stopRecording" {
             let playSoundsVC = segue.destination as! PlaySoundsViewController
             let recordeAudioURL = sender as! URL
-            playSoundsVC.recordeAudioURL = recordeAudioURL
+            playSoundsVC.recordedAudioURL = recordeAudioURL
         }
     }
     
